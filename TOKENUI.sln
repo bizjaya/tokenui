@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TOKENUI1", "..\TOKENUI1\", "{53454E5E-1FC9-4D29-8986-00AE6335E7C6}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TOKENUI", "TOKENUI\", "{53454E5E-1FC9-4D29-8986-00AE6335E7C6}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51823"
-		Debug.AspNetCompiler.PhysicalPath = "..\TOKENUI1\"
+		Debug.AspNetCompiler.PhysicalPath = "TOKENUI\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51823\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_51823"
-		Release.AspNetCompiler.PhysicalPath = "..\TOKENUI1\"
+		Release.AspNetCompiler.PhysicalPath = "TOKENUI\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51823\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51823"
-		SlnRelativePath = "..\TOKENUI1\"
+		SlnRelativePath = "TOKENUI\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
