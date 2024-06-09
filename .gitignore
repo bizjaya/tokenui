@@ -1,0 +1,137 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.sln.ide
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+**/bin/*
+**/obj/*
+
+# NuGet packages
+*.nupkg
+packages/
+# Uncomment if necessary however generally it will be regenerated when needed
+# *.nuget/packages/
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.history/
+
+# Rider directories
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Mono auto generated files
+mono_crash.*
+
+# Include appsettings.json if you don't want to exclude them
+#appsettings.json
+appsettings.Development.json
+
+# Logs
+Logs/
+*.log
+
+# Editor backup files
+*.swp
+*.*~
+
+# Other
+.DS_Store
+*.pyc
+
+# ASP.NET files
+Project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core
+project.json
+project.lock.json
+
+# ASP.NET temporary files
+.tmp/
+
+# IIS
+_IISExpress/
+Backup/
+Backup.bak
+IISExpress/
+
+# Web site specific
+.publishxml
+.vspscc
+
+# ASP.NET generated folders
+ServiceFabricBackup/
+.svn/
+WebSitePublish/
+
+# ASP.NET MVC build results
+**/obj/**/
+**/bin/**/
+**/build/**/
+**/publish/**/
+.vscode/
+
+# Resharper files
+_ReSharper.Caches
+_ReSharper*
+
+# StyleCop
+StyleCopCache.cache
+
+# Subversion
+.svn/
+
+# Web deploy
+.vspscc
+
+# ASP.NET application files
+*.csproj.user
+*.vbproj.user
+*.vssscc
+*.cache
+*.pdb
+*.vshost.exe
+*.vshost.exe.manifest
+*.vshost.exe.config
+*.app
+*.out
+.vs/
