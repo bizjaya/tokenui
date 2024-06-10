@@ -57,8 +57,14 @@ public partial class _Default : System.Web.UI.Page
             csv += $"{token.Name},{token.Symbol},{token.ContractAddress},{token.TotalSupply},{token.TotalHolders}\n";
         }
 
-        File.WriteAllText(Server.MapPath("~/tokens.csv"), csv);
+        // Set the content type and the content disposition header to prompt the download
+        Response.Clear();
+        Response.ContentType = "text/csv";
+        Response.AddHeader("Content-Disposition", "attachment;filename=tokens.csv");
+        Response.Write(csv);
+        Response.End();
     }
+
 
     protected void TokenGridView_PageIndexChanging(object sender, GridViewPageEventArgs e)
     {
